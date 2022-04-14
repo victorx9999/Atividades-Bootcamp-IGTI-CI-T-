@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Employees</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="filters">
+        <h2>Options</h2>
+        <form id="form">
+          <label for="sortby">Sort by</label>
+          <select id="sortby">
+            <option value="nameAsc" selected>name (ascending)</option>
+            <option value="nameDesc">name (descending)</option>
+            <option value="salaryAsc">salary (ascending)</option>
+            <option value="salaryDesc">salary (descending)</option>
+          </select>
+          <fieldset id="roles">
+            <legend>Filter by roles</legend>
+          </fieldset>
+        </form>
+      </div>
+      <main>
+        <h2>Employees <span id="count"></span></h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Salary</th>
+            </tr>
+          </thead>
+          <tbody id="data"></tbody>
+        </table>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

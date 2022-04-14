@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+table,
+th,
+td {
+  /* margin: 50px auto; */
+  border: 1px solid black;
+  text-align: center;
+}
+
+header {
+  flex: 1;
+  background: rgba(216, 212, 211, 0.719);
+  text-align: center;
+}
+
+.col-1{
+  flex: 1;
+  background-color: rgb(206, 200, 200);
+}
+
+.select {
+  margin-top: 20%;
+}
+
+.checkbox {
+  margin-top: 10%;
+}

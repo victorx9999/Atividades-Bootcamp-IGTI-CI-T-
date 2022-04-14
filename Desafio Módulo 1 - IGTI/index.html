@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Teste IGTI</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <aside class="col-1">
+        <div class="items-nav">
+            <div class="select">
+                <h4>Options</h4>
+                <select name="regioes" id="regioes">
+                    <option value="Todos">Todos</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+
+            <div class="checkbox">
+                <h3>Filter By Role</h3>
+                <!-- <input type="checkbox" id="SoutheastEurope" name="subregiao" value="Southeast Europe">
+                <label for="SoutheastEurope"> Southeast Europe </label><br>
+                <input type="checkbox" id="WesternAsia" name="subregiao" value="Western Asia">
+                <label for="WesternAsia"> Western Asia</label><br>
+                <input type="checkbox" id="Caribbean" name="subregiao" value="Caribbean">
+                <label for="Caribbean"> Caribbean</label><br><br> -->
+            </div>
+        </div>
+
+    </aside>
+    <div class="col-2">
+        <header>
+            <h3>Quantidade:<label id="quantidadeItens"></label></h3>
+        </header>
+        <main class="content">
+            <table class="table" id="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Capital</th>
+                        <th>Subregiao</th>
+                        <th>População</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

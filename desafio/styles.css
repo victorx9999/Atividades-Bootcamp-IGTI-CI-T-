@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+#roles label {
+  display: block;
+}
+
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+td:last-child,
+th:last-child {
+  text-align: right;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filters {
+  flex: 0 1 auto;
+  margin-right: 20px;
+}
+main {
+  flex: 1 0 200px;
+}

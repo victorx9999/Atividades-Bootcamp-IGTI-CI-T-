@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Teste IGTI</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h3>Simulação de Financiamento</h3>
+            <div class="row">
+                <div>
+                    <label>Valor:</label>
+                    <input type="number" id="valor" value="200000">
+                </div>
+                <div>
+                    <label>Prazo (anos):</label>
+                    <input type="number" id="prazoAnos" value="20">
+                </div>
+                <div>
+                    <label>Juros ao ano:</label>
+                    <input type="number" id="jurosAno" value="0.08">
+                </div>
+            </div>
+            <div class="btn">
+                <button>Simular</button>
+            </div>
+
+            <h3>Resultado</h3>
+            <div class="row">
+                <div>
+                    <label>Prazo(meses):</label>
+                    <input type="text" id="prazoMeses">
+                </div>
+                <div>
+                    <label>Juros ao mês:</label>
+                    <input type="text" id="jurosMes">
+                </div>
+                <div>
+                    <label>Juros acumulados:</label>
+                    <input type="text" id="jurosA">
+                </div>
+            </div>
+
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Prestação</th>
+                        <th>Amortização</th>
+                        <th>Juros</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td>Um</td>
+                        <td>Dois</td>
+                        <td>tres</td>
+                        <td>Quatro</td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

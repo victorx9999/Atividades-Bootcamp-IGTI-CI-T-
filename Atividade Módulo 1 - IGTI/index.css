@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  width: 35%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+button {
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+.btn {
+  width: 50px;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  margin: 20px auto;
+  border: 1px solid black;
+  text-align: center;
+}
